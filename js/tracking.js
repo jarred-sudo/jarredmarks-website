@@ -4,7 +4,7 @@
  * "PLACEHOLDER", that tag is skipped so nothing breaks pre-configuration.
  */
 (function () {
-  var GA4_ID = 'G-PLACEHOLDER';
+  var GA4_ID = 'G-2GE2232SF1';
   var ADS_ID = 'AW-18199134875';
   var FORM_CONVERSION_LABEL = '0j32CNzvmc8cEJuFg-ZD';
   var PHONE_CONVERSION_LABEL = '8hOhCN_vmc8cEJuFg-ZD';
