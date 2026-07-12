@@ -53,6 +53,9 @@ img { max-width: 100%; display: block; }
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
   font-family: var(--font-serif);
   font-size: 1.25rem;
   font-weight: 700;
@@ -60,6 +63,12 @@ img { max-width: 100%; display: block; }
   text-decoration: none;
   letter-spacing: 0.02em;
   white-space: nowrap;
+}
+
+.brand-mark {
+  width: 38px;
+  height: 38px;
+  flex-shrink: 0;
 }
 
 .brand span { color: var(--gold); }
