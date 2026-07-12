@@ -192,6 +192,50 @@ img { max-width: 100%; display: block; }
 
 .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
 
+.hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.hero-copy { flex: 1 1 auto; min-width: 0; }
+
+.hero-portrait {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.hero-portrait img {
+  width: clamp(200px, 24vw, 300px);
+  height: clamp(200px, 24vw, 300px);
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 4px solid var(--gold);
+  box-shadow:
+    0 0 0 12px rgba(193, 154, 91, 0.14),
+    0 18px 45px rgba(0, 0, 0, 0.35);
+  margin: 0 auto;
+}
+
+.hero-portrait-caption {
+  margin-top: 1.4rem;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  color: #fff;
+}
+
+.hero-portrait-caption span {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  margin-top: 0.3rem;
+}
+
 .hero-strip {
   background: var(--navy-deep);
   border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -594,9 +638,22 @@ img { max-width: 100%; display: block; }
   .headshot-frame { position: static; max-width: 380px; }
   .footer-grid { grid-template-columns: 1fr; gap: 1.8rem; }
   .form-row { grid-template-columns: 1fr; gap: 0; }
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+    gap: 2.5rem;
+  }
+
+  .hero h1 { max-width: none; }
+  .hero-sub { margin-left: auto; margin-right: auto; }
+  .hero-actions { justify-content: center; }
+  .hero-portrait img { width: clamp(170px, 45vw, 220px); height: clamp(170px, 45vw, 220px); }
 }
 
 @media (max-width: 760px) {
+  body { font-size: 16px; }
+
   .nav-toggle { display: block; }
 
   .site-nav {
@@ -615,7 +672,17 @@ img { max-width: 100%; display: block; }
 
   .site-nav.open { display: flex; }
 
-  .hero { padding: 4.5rem 0 4rem; }
+  .hero { padding: 3.5rem 0 3.5rem; }
   .section { padding: 3.5rem 0; }
   .form-card { padding: 1.6rem; }
+
+  .hero-strip .container {
+    gap: 0.5rem 1.6rem;
+    font-size: 0.78rem;
+  }
+
+  .btn { padding: 0.8rem 1.6rem; width: 100%; max-width: 320px; text-align: center; }
+
+  .value-grid { gap: 1.8rem; }
+  .headshot-frame { margin: 0 auto; }
 }
