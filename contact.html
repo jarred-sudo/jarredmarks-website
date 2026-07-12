@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="js/tracking.js" defer></script>
 </head>
 <body>
 
@@ -69,7 +70,8 @@
         </div>
 
         <div class="form-card">
-          <form action="https://formspree.io/f/xlgqrwvg" method="POST">
+          <form action="https://formspree.io/f/xlgqrwvg" method="POST" data-lead-form>
+            <input type="hidden" name="page_source" value="contact">
             <div class="form-row">
               <div class="form-group">
                 <label for="first-name">First Name <span class="req">*</span></label>
@@ -96,8 +98,10 @@
                 <option value="" disabled selected>Select an option</option>
                 <option>Civil &amp; Commercial Litigation</option>
                 <option>Estate Litigation &amp; Probate</option>
+                <option>Real Estate Dispute</option>
+                <option>Landlord / Eviction</option>
                 <option>Corporate &amp; Transactional</option>
-                <option>Real Property</option>
+                <option>Other</option>
               </select>
             </div>
             <div class="form-group">
