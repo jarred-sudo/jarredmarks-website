@@ -251,7 +251,7 @@ img { max-width: 100%; display: block; }
 /* ---------- Practice area cards ---------- */
 .cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1.6rem;
 }
 
