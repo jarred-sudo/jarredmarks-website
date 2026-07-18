@@ -120,6 +120,21 @@
               </div>
             </div>
             <input type="hidden" name="counsel_category" value="Estate Litigation &amp; Probate">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="other-party">Other party <span class="req">*</span></label>
+                <input type="text" id="other-party" name="other_party" required placeholder="Person or company on the other side — write &quot;None&quot; if not applicable">
+              </div>
+              <div class="form-group">
+                <label for="deadline-status">Court papers or deadlines? <span class="req">*</span></label>
+                <select id="deadline-status" name="deadline_status" required>
+                  <option value="" disabled selected>Select an option</option>
+                  <option>No deadline / not sure</option>
+                  <option>I have been served or have a court date</option>
+                  <option>There is a deadline within 30 days</option>
+                </select>
+              </div>
+            </div>
             <div class="form-group">
               <label for="message">Tell us about your estate matter <span class="req">*</span></label>
               <textarea id="message" name="message" required placeholder="Keep your message general — your relationship to the estate or trust and a brief description of the issue."></textarea>
