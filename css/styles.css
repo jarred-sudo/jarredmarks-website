@@ -696,7 +696,7 @@ img { max-width: 100%; display: block; }
   .headshot-frame { margin: 0 auto; }
 }
 
-/* Fee-floor note on intake forms (added 2026-08-25). Sets the retainer
+/* Fee-floor note on intake forms (added 2026-08-26). Sets the retainer
    expectation before a lead is created rather than on the consultation call. */
 .form-fee-note {
   font-size: 0.88rem;
