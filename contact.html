@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Free Consultation | Jarred Marks Law, PLLC</title>
-  <meta name="description" content="Contact Jarred Marks Law, PLLC for a free consultation on Utah estate planning, real estate, or business matters. Call (801) 823-4379 or send a message.">
+  <title>Contact | Jarred Marks Law, PLLC</title>
+  <meta name="description" content="Contact Jarred Marks Law, PLLC about Utah estate planning, real estate, or business matters. Call (801) 823-4379 or send a message.">
   <link rel="canonical" href="https://jarredmarks.com/contact.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +25,11 @@
       <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
+        <a href="fees.html">Fees</a>
         <a href="about.html">About</a>
         <a href="contact.html" aria-current="page">Contact</a>
         <a class="nav-phone" href="tel:+18018234379">(801) 823-4379</a>
-        <a class="nav-cta" href="contact.html">Free Consultation</a>
+        <a class="nav-cta" href="contact.html">Case Review</a>
       </nav>
     </div>
   </header>
@@ -74,6 +75,18 @@
         <div class="form-card">
           <form action="https://formspree.io/f/xlgqrwvg" method="POST" data-lead-form>
             <input type="hidden" name="page_source" value="contact">
+            <div class="form-group">
+              <label for="amount-in-dispute">Amount in dispute <span class="req">*</span></label>
+              <select id="amount-in-dispute" name="amount_in_dispute" required>
+                <option value="" disabled selected>Select an option</option>
+                <option>Under $25,000</option>
+                <option>$25,000 to $100,000</option>
+                <option>$100,000 to $500,000</option>
+                <option>Over $500,000</option>
+                <option>Not a money dispute</option>
+                <option>Not sure yet</option>
+              </select>
+            </div>
             <div class="form-row">
               <div class="form-group">
                 <label for="first-name">First Name <span class="req">*</span></label>
@@ -125,6 +138,7 @@
               <label for="message">Tell us about your legal issue <span class="req">*</span></label>
               <textarea id="message" name="message" required placeholder="Keep your message general — name, contact details, and a brief description of your matter."></textarea>
             </div>
+            <p class="form-fee-note">Litigation engagements begin at a $7,500 retainer, billed hourly against it and replenished as it draws down. We generally take litigation matters where the amount in dispute exceeds $25,000. <a href="fees.html">How we charge</a>.</p>
             <label class="form-disclaimer">
               <input type="checkbox" name="disclaimer_acknowledged" value="I understand" required>
               <span>Submitting this form does not create an attorney-client relationship. Please do not send confidential or case-specific information until we have completed a conflict check and signed a written engagement agreement. <strong>I understand.</strong></span>
@@ -148,6 +162,7 @@
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="services.html">Services</a></li>
+            <li><a href="fees.html">Fees</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>

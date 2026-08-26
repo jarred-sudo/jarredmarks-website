@@ -695,3 +695,17 @@ img { max-width: 100%; display: block; }
   .value-grid { gap: 1.8rem; }
   .headshot-frame { margin: 0 auto; }
 }
+
+/* Fee-floor note on intake forms (added 2026-08-25). Sets the retainer
+   expectation before a lead is created rather than on the consultation call. */
+.form-fee-note {
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--muted);
+  background: rgba(22, 35, 59, 0.04);
+  border-left: 3px solid var(--gold);
+  padding: 0.8rem 1rem;
+  margin: 0 0 1.2rem;
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.form-fee-note a { color: var(--navy); }
