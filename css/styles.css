@@ -55,6 +55,10 @@ img { max-width: 100%; display: block; }
 .brand {
   display: inline-flex;
   align-items: center;
+  /* This gap separates the logo from the wordmark. The wordmark must stay a
+     SINGLE flex item (.brand-text), because a flex container puts this gap
+     between every item and drops the whitespace between them, which is what
+     previously rendered "Jarred Marks Law , PLLC". */
   gap: 0.55rem;
   font-family: var(--font-serif);
   font-size: 1.25rem;
@@ -71,7 +75,7 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
 }
 
-.brand span { color: var(--gold); }
+.brand .brand-accent { color: var(--gold); }
 
 .site-nav {
   display: flex;
