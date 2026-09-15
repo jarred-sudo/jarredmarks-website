@@ -75,7 +75,10 @@ img { max-width: 100%; display: block; }
   flex-shrink: 0;
 }
 
-.brand .brand-accent { color: var(--gold); }
+/* Targets the inner <span>Law</span> only. The wordmark wrapper is a <b>, not
+   a span, deliberately: it keeps this rule correct for visitors still holding
+   a cached copy of the previous stylesheet. */
+.brand span { color: var(--gold); }
 
 .site-nav {
   display: flex;
