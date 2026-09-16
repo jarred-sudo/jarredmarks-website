@@ -716,3 +716,34 @@ img { max-width: 100%; display: block; }
   border-radius: 0 var(--radius) var(--radius) 0;
 }
 .form-fee-note a { color: var(--navy); }
+
+/* ---------- Statute callout (injury information pages) ---------- */
+.statute {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--gold);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.7rem;
+  margin: 1.6rem 0;
+}
+
+.statute-cite {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+}
+
+.statute p:last-child {
+  font-size: 0.97rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.section p + .cards,
+.section .cards + p {
+  margin-top: 1.6rem;
+}
