@@ -39,7 +39,7 @@
     'real-estate-disputes.html': ['practice',          'real_estate'],
     'civil-litigation.html':     ['practice',          'civil_commercial'],
     'estate-litigation.html':    ['practice',          'estate_probate'],
-    'evictions.html':            ['practice',          'landlord_eviction'],
+    'personal-injury.html':      ['practice',          'personal_injury'],
     'fees.html':                 ['fees',              'general'],
     'contact.html':              ['contact',           'general'],
     'about.html':                ['about',             'general'],
