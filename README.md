@@ -8,6 +8,7 @@ Static website for jarredmarks.com, hosted free on GitHub Pages. No Squarespace 
 |---|---|
 | `index.html` | Homepage |
 | `services.html` | Practice areas |
+| `family-law.html` | Family law and divorce practice page |
 | `about.html` | Attorney bio |
 | `contact.html` | Contact form + info |
 | `css/styles.css` | All styling |

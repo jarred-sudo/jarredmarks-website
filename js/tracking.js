@@ -40,6 +40,7 @@
     'civil-litigation.html':     ['practice',          'civil_commercial'],
     'estate-litigation.html':    ['practice',          'estate_probate'],
     'personal-injury.html':      ['practice',          'personal_injury'],
+    'family-law.html':           ['practice',          'family_law'],
     'fees.html':                 ['fees',              'general'],
     'contact.html':              ['contact',           'general'],
     'about.html':                ['about',             'general'],
