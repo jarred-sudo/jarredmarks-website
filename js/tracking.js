@@ -44,7 +44,8 @@
     'fees.html':                 ['fees',              'general'],
     'contact.html':              ['contact',           'general'],
     'about.html':                ['about',             'general'],
-    'thank-you.html':            ['thank_you',         'general']
+    'thank-you.html':            ['thank_you',         'general'],
+    'privacy.html':              ['legal',             'general']
   };
 
   var file = window.location.pathname.split('/').pop() || '';
